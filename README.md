@@ -18,44 +18,7 @@ Built as part of the GSoC / open-source initiative to enhance cohort discovery f
 - 💾 **Query History** — Saves and loads past queries
 - 📋 **Copy & Export** — One-click copy of generated GraphQL
 
----
 
-## 🗂️ Project Structure
-
-```
-pcdc-chatbot/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── ChatWindow.js
-│   │   ├── Message.js
-│   │   ├── QueryDisplay.js
-│   │   └── ToolBadge.js
-│   ├── tools/
-│   │   ├── agentRouter.js
-│   │   ├── generalInquiry.js
-│   │   ├── docsBrowser.js
-│   │   └── graphqlGenerator.js
-│   ├── utils/
-│   │   ├── queryEvaluator.js
-│   │   ├── queryHistory.js
-│   │   └── pcdc-schema.js
-│   ├── styles/
-│   │   └── main.css
-│   └── app.js
-├── docs/
-│   └── PCDC_DATA_MODEL.md
-├── tests/
-│   ├── graphqlGenerator.test.js
-│   └── sampleFiltersets.json
-├── .env.example
-├── .gitignore
-├── package.json
-└── README.md
-```
-
----
 
 ## 🚀 Getting Started
 
@@ -129,16 +92,3 @@ Every message is classified into one of three tools:
 
 ---
 
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feature/my-feature`
-3. Commit: `git commit -m 'Add my feature'`
-4. Push: `git push origin feature/my-feature`
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-MIT License
